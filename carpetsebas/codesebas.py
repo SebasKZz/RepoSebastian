@@ -12,7 +12,7 @@ class Telefono:
         return self.__marca
     def get_modelo(self):
         return self.__modelo
-    def get_modelo(self):
+    def get_almacenamiento(self):
         return self.__almacenamiento
     def get_precio(self):
         return self.__precio
@@ -41,3 +41,4 @@ class Telefono:
             return "Gama media"
         else:
             return "Gama alta"
+
