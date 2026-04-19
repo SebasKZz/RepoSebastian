@@ -33,3 +33,11 @@ class Telefono:
     
     def precio_con_iva(self):
         return self.__precio * 1.16 
+
+    def clasificar_gama(self):
+        if self.__precio < 5000:
+            return "Gama baja"
+        elif self.__precio < 15000:
+            return "Gama media"
+        else:
+            return "Gama alta"
