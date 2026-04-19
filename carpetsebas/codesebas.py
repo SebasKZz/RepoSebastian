@@ -42,3 +42,15 @@ class Telefono:
         else:
             return "Gama alta"
 
+t1 = Telefono(1, "Iphone", "14 pro", 256, 14000)
+print(t1.get_id())
+print(t1.get_marca())
+print(t1.get_modelo())          
+print(t1.get_precio())
+
+t1.set_precio(10000)
+print(t1.get_precio())
+
+t1.info()
+print("precio con IVA: ", t1.precio_con_iva())
+print("Es gama: ", t1.clasificar_gama())
