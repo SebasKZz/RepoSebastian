@@ -27,3 +27,6 @@ class Telefono:
         self.__almacenamiento = almacenamiento
     def set_precio(self, precio):
         self.__precio = precio
+    
+    def info(self):
+        print(f"{self.__id}, {self.__marca}, {self.__modelo}, {self.__almacenamiento}, {self.__precio}")
