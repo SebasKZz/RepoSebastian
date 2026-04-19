@@ -1,7 +1,8 @@
 class Telefono:
-    def __init__ (self, __id, __marca, __modelo, __almacenamiento, __precio):
-        self.__id = __id
-        self.__marca = __marca 
-        self.__modelo = __modelo 
-        self.__almacenamiento = __almacenamiento 
-        self.__precio = __precio
+    def __init__ (self, id, marca, modelo, almacenamiento, precio):
+        self.__id = id
+        self.__marca = marca 
+        self.__modelo = modelo 
+        self.__almacenamiento = almacenamiento 
+        self.__precio = precio
+
