@@ -16,3 +16,14 @@ class Telefono:
         return self.__almacenamiento
     def get_precio(self):
         return self.__precio
+     
+    def set_id(self, id):
+        self.__id = id
+    def set_marca(self, marca):
+        self.__marca = marca 
+    def set_modelo(self, modelo):
+        self.__modelo = modelo
+    def set_almacenamiento(self, almacenamiento):
+        self.__almacenamiento = almacenamiento
+    def set_precio(self, precio):
+        self.__precio = precio
