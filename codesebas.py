@@ -30,3 +30,6 @@ class Telefono:
     
     def info(self):
         print(f"{self.__id}, {self.__marca}, {self.__modelo}, {self.__almacenamiento}, {self.__precio}")
+    
+    def precio_con_iva(self):
+        return self.__precio * 1.16 
